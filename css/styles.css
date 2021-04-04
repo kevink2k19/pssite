@@ -1,0 +1,110 @@
+body{
+  margin:0;
+  text-align:center;
+}
+h1{
+  color:#1687a7;
+  margin: 0;
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
+}
+h2{
+  font-size:30px;
+  color:#1687a7;
+  font-family: 'IBM Plex Mono', monospace;
+}
+h3{
+  font-size:20px;
+  color:#1687a7;
+  font-family: 'IBM Plex Mono', monospace;
+}
+h4{
+  color:#fff;
+  line-height: 0;
+  margin:5px;
+}
+hr{
+  border-style: dotted;
+  border-color: #ccc;
+  border-width: 6px 0 0 0;
+  width:20%;
+}
+p{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color:#1687a7;
+}
+.top-container{
+  background:#a4ebf3;
+  height: 450px;
+  position: static;
+}
+.tech-img{
+  right:0;
+  top:0;
+  position: absolute;
+  height:450px;
+}
+.name-row{
+  position: relative;
+  top:120px;
+}
+span{
+  text-decoration: underline;
+}
+.middle-container{
+  margin:0 auto;
+  margin-top:20px;
+  width:40%;
+}
+.profile-img{
+  width:120px;
+}
+.digital-design{
+  text-align: left;
+  display:inline-block;
+}
+.digital-img{
+  width:125px;
+  float:left;
+  margin:0 20px 0 0;
+}
+.web-design{
+    margin-top:20px;
+    text-align: right;
+  }
+.web-img{
+  width:125px;
+  margin-left:20px;
+  float:right;
+}
+.contact-btn {
+  background:#1597bb;
+  width:120px;
+  height:40px;
+  border-radius: 10px;
+  border-width: 0;
+  color:#fff;
+}
+.contact-btn:hover {
+  width:125px;
+  color:#8fd6e1;
+  transition: 1000ms;
+}
+.contact-btn :active {
+  width:120px;
+  color:#1597bb;
+  transition: 100ms;
+}
+.bottom-container{
+  margin-top: 20px;
+  height:125px;
+  background:#a4ebf3;
+}
+.bottom-container a{
+  font-family: 'IBM Plex Mono', monospace;
+  text-decoration: none;
+  font-size: 18px;
+  margin:25px 50px 0 0;
+  color:#1687a7;
+  line-height: 5;
+}
